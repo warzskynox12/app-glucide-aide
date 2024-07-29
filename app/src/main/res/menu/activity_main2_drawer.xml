@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_launcher_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_ratio"
+            android:icon="@drawable/ic_launcher_ratio"
+            android:title="@string/menu_ratio" />
+        <item
+            android:id="@+id/nav_calculaite"
+            android:icon="@drawable/ic_launcher_calculaite"
+            android:title="@string/menu_calculaite" />
+        <item
+            android:id="@+id/nav_historique"
+            android:icon="@drawable/ic_launcher_historique"
+            android:title="@string/menu_historique" />
+    </group>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ratio"
+        android:name="com.example.myapplication.ui.ratio.RatioFragment"
+        android:label="@string/menu_ratio"
+        tools:layout="@layout/fragment_ratio" />
+
+    <fragment
+        android:id="@+id/nav_calculaite"
+        android:name="com.example.myapplication.ui.calculaite.CalculaiteFragment"
+        android:label="@string/menu_calculaite"
+        tools:layout="@layout/fragment_calculaite" />
+
+    <fragment
+        android:id="@+id/nav_historique"
+        android:name="com.example.myapplication.ui.historique.HistoriqueFragment"
+        android:label="@string/menu_historique"
+        tools:layout="@layout/fragment_historique" />
+</navigation>
