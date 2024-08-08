@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1054736299280",
+    "firebase_url": "https://glucide-aide-default-rtdb.firebaseio.com",
+    "project_id": "glucide-aide",
+    "storage_bucket": "glucide-aide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054736299280:android:261c1b06ad1a9ff76de195",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054736299280-6i6skdecll0fcc69qqmjje38sndb8hdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "6043bdf80ecaec4ebecd345d9f68a9558e357662"
+          }
+        },
+        {
+          "client_id": "1054736299280-rqk2tm737aob86feifckauia82k8d7of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRP7CRxmfxkyDKCCIdpWxHJZkSFPwbwtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054736299280-rqk2tm737aob86feifckauia82k8d7of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

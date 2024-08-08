@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <data>
+            <variable
+                name="viewModel"
+                type="com.example.myapplication.ui.signin.SigninViewModel" />
+        </data>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:layout_below="@id/email"
+                    android:layout_marginTop="16dp" />
+
+                <Button
+                    android:id="@+id/signinButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Connection"
+                    android:textColor="@color/white"
+                    android:layout_below="@id/password"
+                    android:layout_marginTop="16dp" />
+
+                <Button
+                    android:id="@+id/signupButtonGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Connection avec Google"
+                    android:textColor="@color/white"
+                    android:layout_below="@+id/signinButton"
+                    android:layout_marginTop="16dp"/>
+
+        </RelativeLayout>
+</layout>

@@ -9,7 +9,8 @@
         android:id="@+id/nav_home"
         android:name="com.example.myapplication.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+    </fragment>
 
     <fragment
         android:id="@+id/nav_ratio"
@@ -28,4 +29,10 @@
         android:name="com.example.myapplication.ui.historique.HistoriqueFragment"
         android:label="@string/menu_historique"
         tools:layout="@layout/fragment_historique" />
+
+    <fragment
+        android:id="@+id/nav_signin"
+        android:name="com.example.myapplication.ui.signin.SigninFragment"
+        android:label="@string/menu_signin"
+        tools:layout="@layout/fragment_signin" />
 </navigation>

@@ -9,4 +9,5 @@
     <string name="menu_ratio">Ratio</string>
     <string name="menu_calculaite">Calculaite</string>
     <string name="menu_historique">Historique</string>
+    <string name="menu_signin">Sign In</string>
 </resources>

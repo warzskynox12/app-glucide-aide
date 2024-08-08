@@ -10,7 +10,6 @@ public class RatioViewModel extends ViewModel {
 
     public RatioViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
     }
 
     public LiveData<String> getText() {
